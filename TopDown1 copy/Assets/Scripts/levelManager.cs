@@ -33,6 +33,7 @@ public class levelManager : MonoBehaviour
 
     public string menuLevel;
 
+    bool paused = false;
 
 
     public List<GameObject> enemies = new List<GameObject>();
@@ -102,18 +103,28 @@ public class levelManager : MonoBehaviour
                 StartCoroutine(LevelEnd());
             }
         }   
-        if(PlayerHealthController.instance.health <= 0)
+        if(TopDownHealthControll.instance.health <= 0)
         {
             RunDeathSound();
         }
         if(Input.GetKey(KeyCode.Escape))
         {
-            pauseScreen.SetActive(true);
-            gun.instance.canShoot = false;
-            Time.timeScale = 0;
+            pasueFlip()
         }
     }
-
+    void pasueFlip()
+    {
+        paused != paused
+        pauseScreen.SetActive(paused);
+        if(paused)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+    }
     public IEnumerator LevelEnd()
     {
         Debug.Log("level end called");
