@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c9967e430d61f4d834e98916f8a0af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 5581090997315427291, guid: 22bc593a87dcdb64185d7d4a62414f64, type: 3}
+  target: {fileID: 0}
   moveSpeed: 3
   sound: {fileID: 3661543872259071845}
   chaseDistance: 5
@@ -233,6 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40aa89607c376f7419ab52ecd01cdcae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   disapearTimer: 3
   fadeRate: 1
 --- !u!143 &-8936162899097570148

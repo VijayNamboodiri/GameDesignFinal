@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Rollaball/SCenes/RollABall 2.unity
     guid: 07272b9a1fc6370459da6592ffea4ed8
   - enabled: 1
-    path: Assets/Scenes/Game Hub.unity
-    guid: da3ce4bbc7836b841a3672ed1ec1ab05
-  - enabled: 1
     path: Assets/Zombie Game/Scenes/ZombieGameLvl1.unity
     guid: d742dc791787379488f38bea16b4342d
+  - enabled: 1
+    path: Assets/Zombie Game/Scenes/ZombieGameLvl2.unity
+    guid: 13e18b2880c0de14096760fbd79546e5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Game Hub.unity
+    guid: da3ce4bbc7836b841a3672ed1ec1ab05
   m_configObjects: {}

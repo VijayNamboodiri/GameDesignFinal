@@ -155,5 +155,9 @@ public class LevelMangerZombie : MonoBehaviour
     {
         SceneManager.LoadScene(menuLevel);
     }
+    public void nextLvl()
+    {
+        StartCoroutine(LevelEnd());
+    }
    
 }

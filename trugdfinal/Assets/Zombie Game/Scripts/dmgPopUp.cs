@@ -8,7 +8,7 @@ public class dmgPopUp : MonoBehaviour
 {
     float textSpeed = 5;
     TextMeshPro textMesh;
-    Color textColor;
+    public Color textColor;
     public float disapearTimer;
     float disapearMax;
     public float fadeRate;
